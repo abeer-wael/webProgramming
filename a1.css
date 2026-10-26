@@ -1,0 +1,20 @@
+body {
+  background-color: #04c9ff;
+}
+h1 {
+  color: rgb(49, 49, 247);
+  font-family: italic;
+  text-align: center;
+}
+.h2l {
+  text-align: center;
+}
+
+.title {
+  text-decoration-line: underline;
+}
+pre,
+.p3,
+.p4 {
+  padding-top: 0px;
+}

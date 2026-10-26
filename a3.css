@@ -1,0 +1,45 @@
+body{
+    background-color: #a7ebecd4;
+    padding: 10px;
+}
+
+header {
+    background-color: #fbfcfe;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.big-container {
+  display: grid;
+  grid-template-columns: 1fr;      
+  gap: 10px;                       
+  padding: 1rem;
+  background-color: #6ccde8;
+  border: 2px solid #4f6bed;
+  border-radius: 6px;
+}
+
+.project-card {
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid #4f6bed;
+  border-radius: 10px;
+  background: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
